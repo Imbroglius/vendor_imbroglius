@@ -1,7 +1,7 @@
 # Overlay
-PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += vendor/ponces/overlay
+PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += vendor/imbroglius/overlay
 PRODUCT_PACKAGE_OVERLAYS += \
-    vendor/ponces/overlay/common
+    vendor/imbroglius/overlay/common
 
 ifneq ($(TARGET_BUILD_VARIANT),eng)
 # Disable extra StrictMode features on all non-engineering builds
@@ -28,11 +28,11 @@ endif
 
 # World APN list
 PRODUCT_COPY_FILES += \
-    vendor/ponces/prebuilt/common/etc/apns-conf.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/apns-conf.xml
+    vendor/imbroglius/prebuilt/common/etc/apns-conf.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/apns-conf.xml
 
 # Power whitelist
 PRODUCT_COPY_FILES += \
-    vendor/ponces/config/permissions/custom-power-whitelist.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/sysconfig/custom-power-whitelist.xml
+    vendor/imbroglius/config/permissions/custom-power-whitelist.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/sysconfig/custom-power-whitelist.xml
 
 # Do not include art debug targets
 PRODUCT_ART_TARGET_INCLUDE_DEBUG_BUILD := false
@@ -64,16 +64,16 @@ PRODUCT_PRODUCT_PROPERTIES += \
     ro.boot.vendor.overlay.theme=com.android.internal.systemui.navbar.gestural
 
 # Clocks
-$(call inherit-product, vendor/ponces/config/clocks.mk)
+$(call inherit-product, vendor/imbroglius/config/clocks.mk)
 
 # Fonts
-$(call inherit-product, vendor/ponces/config/fonts.mk)
+$(call inherit-product, vendor/imbroglius/config/fonts.mk)
 
 # Icons
-$(call inherit-product, vendor/ponces/config/icons.mk)
+$(call inherit-product, vendor/imbroglius/config/icons.mk)
 
 # Packages
-$(call inherit-product, vendor/ponces/config/packages.mk)
+$(call inherit-product, vendor/imbroglius/config/packages.mk)
 
 # RRO Overlays
-$(call inherit-product, vendor/ponces/config/rro_overlays.mk)
+$(call inherit-product, vendor/imbroglius/config/rro_overlays.mk)
