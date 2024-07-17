@@ -15,3 +15,7 @@ PRODUCT_PACKAGES += \
 # Weather
 PRODUCT_PACKAGES += \
     OmniJaws
+
+# Aperture
+PRODUCT_PACKAGES += \
+    Aperture
