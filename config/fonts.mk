@@ -4,7 +4,7 @@ $(call inherit-product-if-exists, external/google-fonts/arvo/fonts.mk)
 $(call inherit-product-if-exists, external/google-fonts/lato/fonts.mk)
 $(call inherit-product-if-exists, external/google-fonts/rubik/fonts.mk)
 
-LOCAL_PATH := vendor/ponces/fonts
+LOCAL_PATH := vendor/imbroglius/fonts
 
 PRODUCT_COPY_FILES += \
     $(call find-copy-subdir-files,*,$(LOCAL_PATH)/ttf,$(TARGET_COPY_OUT_PRODUCT)/fonts)
