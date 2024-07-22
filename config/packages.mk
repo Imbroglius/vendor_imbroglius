@@ -19,3 +19,7 @@ PRODUCT_PACKAGES += \
 # Aperture
 PRODUCT_PACKAGES += \
     Aperture
+
+# Magisk
+PRODUCT_PACKAGES += \
+    Magisk
