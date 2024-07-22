@@ -20,6 +20,3 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     Aperture
 
-# Magisk
-PRODUCT_PACKAGES += \
-    Magisk
