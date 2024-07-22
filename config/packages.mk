@@ -8,13 +8,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     QuickAccessWallet
 
-# lawnchair
+# Trebuchet
 PRODUCT_PACKAGES += \
-    lawnchair
-
-# lawnfeed
-PRODUCT_PACKAGES += \
-    lawnfeed
+    TrebuchetQuickStep
 
 # Weather
 PRODUCT_PACKAGES += \
