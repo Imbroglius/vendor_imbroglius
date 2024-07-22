@@ -22,4 +22,9 @@ PRODUCT_PACKAGES += \
 
 # Lawnchair
 PRODUCT_PACKAGES += \
-    Lawnchair
+    lawnchair
+
+# lawnfeed
+PRODUCT_PACKAGES += \
+    lawnfeed
+
