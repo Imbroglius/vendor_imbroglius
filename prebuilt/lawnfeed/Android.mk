@@ -1,5 +1,4 @@
 LOCAL_PATH:=$(call my-dir)
-
 include $(CLEAR_VARS)
 LOCAL_MODULE := Lawnfeed.3
 LOCAL_CERTIFICATE := PRESIGNED
