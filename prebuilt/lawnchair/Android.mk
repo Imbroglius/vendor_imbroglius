@@ -1,6 +1,6 @@
 LOCAL_PATH:=$(call my-dir)
 include $(CLEAR_VARS)
-LOCAL_MODULE := Lawnchair-1.2.0.1884
+LOCAL_MODULE := Lawnchair.Debug.14-dev.Nightly-CI_1099-4044c71
 LOCAL_CERTIFICATE := PRESIGNED
 LOCAL_DEX_PREOPT := false
 LOCAL_MODULE_CLASS := APPS
