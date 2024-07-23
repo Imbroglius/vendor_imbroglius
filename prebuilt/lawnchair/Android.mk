@@ -1,5 +1,4 @@
 LOCAL_PATH:=$(call my-dir)
-
 include $(CLEAR_VARS)
 LOCAL_MODULE := Lawnchair-1.2.0.1884
 LOCAL_CERTIFICATE := PRESIGNED
