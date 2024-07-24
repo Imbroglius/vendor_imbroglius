@@ -48,7 +48,6 @@ PRODUCT_PRODUCT_PROPERTIES += \
 
 # The set of packages we want to force 'speed' compilation on.
 PRODUCT_DEXPREOPT_SPEED_APPS += \
-    TrebuchetQuickStep \
     Settings \
     SystemUI
 
