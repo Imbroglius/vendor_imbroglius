@@ -8,6 +8,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     QuickAccessWallet
 
+# Trebuchet
+PRODUCT_PACKAGES += \
+    TrebuchetQuickStep
+
 # Weather
 PRODUCT_PACKAGES += \
     OmniJaws
