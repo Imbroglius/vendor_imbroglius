@@ -20,11 +20,3 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     Aperture
 
-# Lawnchair
-PRODUCT_PACKAGES += \
-    lawnchair
-
-# lawnfeed
-PRODUCT_PACKAGES += \
-    lawnfeed
-
