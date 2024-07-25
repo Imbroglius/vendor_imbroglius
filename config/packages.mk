@@ -27,6 +27,3 @@ PRODUCT_PACKAGES +=\
 # Lawnfeed
 PRODUCT_PACKAGES +=\
     lawnfeed
-
-
-
