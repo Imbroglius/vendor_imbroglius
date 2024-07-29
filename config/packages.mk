@@ -20,10 +20,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     Aperture
 
-# Lawnchair
+# opencamera
 PRODUCT_PACKAGES +=\
-    lawnchair
+    opencamera
 
-# Lawnfeed
+# F-Droid
 PRODUCT_PACKAGES +=\
-    lawnfeed
+    F-Droid
